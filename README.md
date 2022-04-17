@@ -19,6 +19,9 @@ This project will be executed as a group.  To make your team as effective and ef
 
 ## <a name="ds"></a> :test_tube: Datasets
 
+There were 3 datasets given
+1. Spray - Tracking the date and location where the spray occurred.
+2. Weather - A huge collection of data during including, temperature, humidity, daylight hours, wind speed etc. The full documentation can be found [here](../assets/documentation&maps/noaa_weather_qclcd_documentation.pdf)
 The dataset, along with description, can be found here: [https://www.kaggle.com/c/predict-west-nile-virus/](https://www.kaggle.com/c/predict-west-nile-virus/).
 
 ## <a name="eda"></a> :test_tube: EDA
