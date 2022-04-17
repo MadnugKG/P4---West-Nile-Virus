@@ -35,7 +35,7 @@ The datasets, along with description, can be found  on Kaggle [here](https://www
 
 ## <a name="eda"></a> :test_tube: EDA
 
-In-depth exploratory data analysis was conducted on all 3 datasets. here are just three snapshots of information discovered:
+In-depth exploratory data analysis was conducted on all 3 datasets. here are just three snapshots from the presentation deck of information discovered:
 
 ![](./assets/images/EDA1.png)
 
@@ -43,7 +43,7 @@ In-depth exploratory data analysis was conducted on all 3 datasets. here are jus
 
 ![](./assets/images/EDA3.png)
 
-For the full code and analysis done, feel free to look at the codes uploaded in [Part 2: EDA](./code/Part 2- EDA.ipynb)
+For the full code and analysis done, feel free to look at the codes uploaded in [Part 2: EDA](./code)
 
 ## <a name="ml"></a> :test_tube: Machine Learning
 
