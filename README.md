@@ -1,8 +1,5 @@
-<p align="center">
-<img src = "https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png"/>
-<h1 align="center">DSIF4 - Kaggle Competition</h1>
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) DSIF4 - Kaggle Competition
 <h2 align="center">:microbe::microbe: West Nile Virus Prediction (Chicago) :microbe::microbe:</h2>
-</p>
 
 ## Content
 - [Introduction](#intro)
@@ -26,14 +23,12 @@ Due to the recent epidemic of West Nile Virus in the Windy City, we've had the D
 
 Interviewers from the data science department. Some will be data scientists, biostatisticians and epidemiologists who will understand our models and metrics and will want more information. Others will be decision-makers, focusing almost exclusively on cost-benefit analysis.
 
-####
-
 ## <a name="ds"></a> :test_tube: Datasets
 
 There were 3 datasets given
 1. Spray - Tracking the date and location where the spray occurred.
 2. Weather - A huge collection of data during including, temperature, humidity, daylight hours, wind speed etc. The full documentation can be found [here](https://www.kaggle.com/competitions/predict-west-nile-virus/data?select=noaa_weather_qclcd_documentation.pdf)
-3. Train(and test) - The train and test datasets keep track of the traps placed, their locations, the species of mosquito found in the traps and the number of Mosquitos infected with the West Nile virus
+3. Train(and test) - The train and test datasets keeps track of the traps placed, their locations, the species of mosquito found in the traps and the number of Mosquitos infected with the West Nile virus
 
 The datasets, along with description, can be found  on Kaggle [here](https://www.kaggle.com/c/predict-west-nile-virus/).
 
