@@ -47,8 +47,48 @@ For the full code and analysis done, feel free to look at the codes uploaded in 
 
 ## <a name="ml"></a> :test_tube: Machine Learning
 
+We trained the following models:
+
+* Logistic Regression
+* Naive Bayes
+* Random Forest
+* Extra Trees
+* AdaBoost
+* GradientBoost
+
+The 'train_weather_weekly' dataset is split into 80% train and validation set, 20% test set. GridSearch CV is applied across 5 folds on the data, to find the best hyperparameters for all the models. We will also evaluate the results of each of the model to help us gain more perpective on the West Nile Virus.
+
+Do note that the data is heavily imbalanced (the baseline score is ~94.12%). Thus, after determining the best hyperparameters for each of the model, we will re-fit the model using over-sampled data, which is obtained using SMOTE (Synthetic Minority Over-sampling Technique).
+
+To determine the final model to use to perform the predictions in the test dataset, we will assess the models using the following metrics. We will primarily look at:
+* AUC Score
+* Training Score
+* Test Score
+* Recall
+* Precision
+
+![](./assets/images/ML.png)
+
+Why do we want to look at AUC score then? As earlier stated, our dataset is heavily imbalanced and the baseline accuracy is ~94%. This means that, if our model predicts that every point is Wnv NOT present, our accuracy is 94%. Thus, accuracy is not the best metric for validation in this situation. AUC, on the other hand, utilizes probabilites of class prediction and provides an aggregate measure of performance across all possible classification thresholds. This allows us to be able to more precisely evaluate and compare the models.
+
+Our final selected model is the GradientBoostingClassifier(max_depth=2, min_samples_leaf=2). After running this model on the test dataset, we achieved a Kaggle Score of 0.49709.
 
 
 ## <a name="conc"></a> :test_tube: Conclusion
 
+While the model chosen is roughly 75% accurate in detecting the West Nile Virus, it is better than the null model in a sense where null model just assume all traps have no WNV present.
+
+Although the model is unable to predict at a very high accuracy rate (e.g. 90+%), we should still conduct spray at those predicted spots. 
+This is despite that the spray train analysis seemingly imply that it is not an effective method.
+Reasons being, we were not sure how about the size of the spray area, exact weather condition at the time of spray, how was the spray conducted and most traps were not placed in the spray area.
+
+Based on our analysis of the data, the WNV is more active during higher temperatures, shorter daylight hours and during wet weather conditions. As we tune the model further and collect more data, the model would be able to predict with even higher accuracy the possible presence of the WNV and preventive measures can be taken ahead of time.
+
+
 ## <a name="fr"></a> :test_tube: Further Recommendations
+
+We dropped the 'NumMosquitos' column as one of the features of our model as we were unable to create a good enough linear regression model to predict the 'NumMosquitos' in our test dataset. Moving forward, we can try to create a classification model instead of a Regression model, since 'NumMosquitos' will always be an integer value. So, Class 1 = 1 Mosquito, Class 2 = 2 Mosquitos, Class 3 = 3 Mosquitos etc. If our results are good, we can then look to include 'NumMosquios' as one of the features of our final selected model.
+
+Furthermore, we can also look to include how densely populated each of the location is as part of our features. This is because, it could be that areas with a denser human population would experience a higher number of mosquitos in the area since mosquitoes feed off the blood of humans. This would increase the probability of the WNV virus too since there are more humans to transmit the virus to.
+
+Additionally, the features/layouts of the location might be a significant factor too. Presence of forest areas, water sources, type of buildings are some examples that might affect the breeding of mosquitos, so we can look to include these features in the future to further improve our model.
