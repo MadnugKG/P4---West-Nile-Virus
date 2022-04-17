@@ -1,4 +1,5 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) DSIF4 - Kaggle Competition
+
 <h2 align="center">:microbe::microbe: West Nile Virus Prediction (Chicago) :microbe::microbe:</h2>
 
 ## Content
@@ -33,6 +34,16 @@ There were 3 datasets given
 The datasets, along with description, can be found  on Kaggle [here](https://www.kaggle.com/c/predict-west-nile-virus/).
 
 ## <a name="eda"></a> :test_tube: EDA
+
+In-depth exploratory data analysis was conducted on all 3 datasets. here are just three snapshots of information discovered:
+
+![](./assets/images/EDA1.png)
+
+![](./assets/images/EDA2.png)
+
+![](./assets/images/EDA3.png)
+
+For the full code and analysis done, feel free to look at the codes uploaded in [Part 2: EDA](./code/Part 2- EDA.ipynb)
 
 ## <a name="ml"></a> :test_tube: Machine Learning
 
