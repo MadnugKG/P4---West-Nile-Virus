@@ -1,5 +1,8 @@
-<h1 align="center">![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) DSIF4 - Kaggle Competition</h1>
+<p align="center">
+<img src = "https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png"/>
+<h1 DSIF4 - Kaggle Competition</h1>
 <h2 align="center">:microbe::microbe: West Nile Virus Prediction (Chicago) :microbe::microbe:</h2>
+</p>
 
 ## Content
 - [Introduction](#intro)
