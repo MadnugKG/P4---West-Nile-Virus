@@ -1,6 +1,13 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) DSIF4 - Kaggle Competition
-<h2 align="center">:microbe::microbe: West Nile Virus Predictions :microbe::microbe:</h2>
-## :microbe::microbe: West Nile Virus Predictions :microbe::microbe:
+<h2 align="center">:microbe::microbe: West Nile Virus Prediction (Chicago) :microbe::microbe:</h2>
+
+## Content
+- [Introduction](#Introduction)
+- [Datasets](#Datasets)
+- [EDA](#EDA)
+- [Machine Learning](#Machine Learning)
+- [Conclusion](#Conclusion)
+- [Further Recommendation](#fr)
 
 ##  :test_tube: Introduction
 
@@ -10,6 +17,14 @@ Due to the recent epidemic of West Nile Virus in the Windy City, we've had the D
 
 This project will be executed as a group.  To make your team as effective and efficient as possible you should do the create a shared GitHub repo and project planning document as described in the deliverables section below.
 
-## Dataset
+## :test_tube: Datasets
 
 The dataset, along with description, can be found here: [https://www.kaggle.com/c/predict-west-nile-virus/](https://www.kaggle.com/c/predict-west-nile-virus/).
+
+## :test_tube: EDA
+
+## :test_tube: Machine Learning
+
+## :test_tube: Conclusion
+
+## <a name="fr"></a> :test_tube: Further Recommendation
