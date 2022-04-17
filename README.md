@@ -43,9 +43,11 @@ In-depth exploratory data analysis was conducted on all 3 datasets. here are jus
 
 ![](./assets/images/EDA3.png)
 
-For the full code and analysis done, feel free to look at the codes uploaded in [Part 2: EDA](./code)
+For the full code and analysis done, feel free to look at the codes uploaded in [Part 2: EDA](./code/Part%202-%20EDA.ipynb)
 
 ## <a name="ml"></a> :test_tube: Machine Learning
+
+
 
 ## <a name="conc"></a> :test_tube: Conclusion
 
